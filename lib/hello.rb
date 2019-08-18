@@ -1,6 +1,6 @@
 def hello_t(name)
-  name = ["Tim", "Tom", "Fred"]
-  ["Tim", "Tom", "Fred"].each do |name|
+  name = ["Tim", "Tom", "Jim"]
+  ["Tim", "Tom", "Jim"].each do |name|
     if name.start_with?("T")
       puts "Hi, #{name}"
     end
